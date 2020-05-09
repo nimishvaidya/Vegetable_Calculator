@@ -1,0 +1,59 @@
+<html>
+    <head>
+    <script>
+
+</script>
+    </head>
+<body>
+<div style="padding:20px">
+<!--Start of item1-->
+<hr>    
+<label style="width: 10%">Onion</label>
+<input style="width: 10%" type="text" id="val1" rows="1" cols="5"  value="40">
+<input style="width: 10%" type="text" id="quantity1" rows="1" cols="10"  value="0" onchange="add1()">
+
+<button style="width: 20%" type="button" onclick="qa1()">+</button>
+<button style="width: 20%" type="button" onclick="qa1kg()">1 Kg</button>
+<button style="width: 20%" type="button" onclick="qs1()">-</button>
+<input style="width: 10%" id="total1" value="0" >
+    
+<!--End of item1-->    
+<!--Start of item2-->
+<br><hr>
+<label>Item2</label>
+<input type="text" id="val2" rows="1" cols="5"  value="40">
+<input type="text" id="quantity2" rows="1" cols="10"  value="0" onchange="add2()">
+
+<button type="button" onclick="qa2()">+</button>
+<button type="button" onclick="qa2kg()">1 Kg</button>
+<button type="button" onclick="qs2()">-</button>
+<input id="total2" value="0" >
+<!--End of item2--> 
+<!--Start to singular items-->
+<br><hr>Singular Items----------------------<hr>
+<label>SItem1</label>
+<input type="text" id="sval1" rows="1" cols="5"  value="5">
+<input type="text" id="squantity1" rows="1" cols="10" value="0" onchange="sadd1()">
+
+<button type="button" onclick="sqa1()">+</button>
+<button type="button" onclick="sqs1()">-</button>
+<input id="stotal1" value="0" >    
+<!--End of singular Items-->    
+<!--Start-->
+<hr><hr>
+Total  <input type="text" id="totalAll" >
+<hr>
+</div>
+<!--end-->
+<script src="js.js"></script>
+<script src="css.css"></script>
+</body>
+</html>
+
+<!-- 
+<label for="male"></label>
+<br>
+Total Price is <input id="total">
+<br>
+<button type="button" value="Reset">Clear</button>
+-->
